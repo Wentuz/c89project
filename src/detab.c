@@ -3,14 +3,18 @@
     Program for changing tabs to spaces
     Appropriate spacing should be maintained
 
+
+    TODO:
+        -read inputs
+        -count '\t' in tables
+        -make new table 
+        -copy old table into new table with spaces
 */
 
 #include "detab.h"
 
-int add(int A, int B){
-    return A + B;
-}
+char rmvTabs(char target[]){
+    char newTable[] = target[1];
 
-int substract(int A, int B){
-    return A - B;
+    return newTable;
 }
