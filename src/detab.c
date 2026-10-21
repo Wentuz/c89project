@@ -13,8 +13,4 @@
 
 #include "detab.h"
 
-char rmvTabs(char target[]){
-    char newTable[] = target[1];
 
-    return newTable;
-}
